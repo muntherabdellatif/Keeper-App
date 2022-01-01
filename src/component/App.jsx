@@ -1,15 +1,16 @@
 import React from "react";
-import notes from "../notes";
+import Note from "./Note";
+import CreateArea from "./CreateArea";
 import Footer from "./Footer";
 import Header from "./Header";
-import {CreatNotes} from "./Notes.jsx";
 
 
 function App () {
     return (
         <div>
             <Header/>
-            {notes.map(CreatNotes)}
+            <CreateArea/>
+            <Note key={1} title="Note title" content="Note content" />
             <Footer/>
         </div>
     );
