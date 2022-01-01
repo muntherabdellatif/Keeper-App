@@ -5,7 +5,7 @@ function Footer () {
     const currentYear = toDay.getFullYear() ;
     return (
         <footer>
-            <p>copyright <i class="far fa-copyright"></i>  {currentYear}</p>
+            <p>copyright <i className="far fa-copyright"></i>  {currentYear}</p>
         </footer>
     );
 }
